@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elomus - Drone Company</title>
+    <!-- favicon  -->
+    <link rel="icon" href="./assets/images/drone.png" type="image/x-icon">
+    <!-- stylesheet  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- bootstrapicons  -->
+    <link rel="stylesheet" href="./assets/css/bootstrap-icons.min.css">
+    <!-- stylesheet  -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    
+</head>
+<body>
+    <header>
+        <!-- navbar  -->
+        <nav class="navbar bg-info navbar-expand-lg position-absolute top-0 z-1 end-0 start-0 fw-medium py-3">
+            <div class="container ">
+                <a href="./index.html ">
+                    <img src="./assets/images/logo-elomus.webp" alt="logo">
+                </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navigation" class="collapse navbar-collapse ">
+                    <ul class="navbar-nav mx-auto  ">
+                        <li class="nav-item dropdown me-4">
+                            <a href="" class="nav-link dropdown-toggle  text-white border border-light rounded-pill px-3 py-2" data-bs-toggle="dropdown">Home</a>
+                            <ul class="dropdown-menu ">
+                                <li><a class="dropdown-item" href="#">HOME-DRONE</a></li>
+                                <li><a class="dropdown-item" href="#">HOME-STROLLER</a></li>
+                                <li><a class="dropdown-item" href="#">HOME-SMARTWATCH</a></li>
+                                <li><a class="dropdown-item" href="#">HOME-SCOOTTY</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item  me-4 ">
+                            <a href="" class="nav-link text-white">Shop</a>
+
+                        </li>
+                        <li class="nav-item  me-4">
+                            <a href="" class="nav-link text-white">Top Products</a>
+                        </li>
+                        <li class="nav-item  me-4">
+                            <a href="" class="nav-link text-white">Product Images</a>
+                        </li>
+                        <li class="nav-item  me-4">
+                            <a href="" class="nav-link text-white">Pages/Layouts
+                                <i class="bi bi-caret-down-fill "></i>
+                            </a>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="side-details d-none d-lg-block">
+                    <ul class="list-unstyled d-flex mb-0 ms-3">
+                        <li data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop">
+                            <a class=" text-white mx-2" href="#">
+                                <i class="bi bi-search"></i>
+                            </a>
+                        </li>
+                        <li class=" dropdown dropstart">
+                            <a class="text-white mx-2 " data-bs-toggle="dropdown" href="#">
+                                <i class="bi bi-cart2 position-relative"></i>
+                                <span class="position-absolute top-0 translate-middle rounded-circle  px-1 text-center">0
+                            </a>
+                            <ul class="dropdown-menu top-100">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+
+                        </li>
+                        <li>
+                            <a class=" text-white mx-2" href="#">
+                                <i class="bi bi-envelope-open"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- srch offcanvas -->
+        <div class="offcanvas offcanvas-top bg-transparent h-100" id="offcanvasTop">
+            <div class="offcanvas-header justify-content-end">
+                <div data-bs-theme="dark">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                </div>
+            </div>
+            <div class="offcanvas-body d-flex align-items-center justify-content-center">
+                <div class="col-10">
+                    <form action="" method="">
+                        <input class="form-control rounded-0 bg-transparent fs-2 me-2" type="search"
+                            placeholder="Search...">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- bootstrap script  -->
+    <script src="./assets/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+</html>

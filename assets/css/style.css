@@ -1,0 +1,26 @@
+@font-face{
+    font-family: myfont;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+:root{
+    --text-color:gray;
+    --haeding-color:#454545;
+    --bg-color:#21b3f1;
+}
+body{
+    font-family: myfont !important;
+}
+.nav-item i{
+    font-size: 10px;
+}
+.dropdown-menu li a{
+    font-size: 14px;
+}
+.offcanvas-body .form-control {
+    border: 0 !important;
+    border-bottom: 3px solid rgb(145, 236, 236) !important;
+}
+.side-details span{
+    font-size: 10px;
+    background-color:#1080b1 ;
+}
